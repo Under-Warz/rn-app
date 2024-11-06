@@ -1,0 +1,83 @@
+{
+  "common": {
+    "cancel": "Annuler",
+    "continue": "Continuer"
+  },
+  "errors": {
+    "FETCH_ERROR": "Pas de connexion réseau",
+    "INVALID_LOGIN_PASSWORD": "Nom d'utilisateur ou mot de passe invalide"
+  },
+  "navigation": {
+    "tabBar": {
+      "upload": "Upload",
+      "settings": "Paramètres"
+    }
+  },
+  "features": {
+    "auth": {
+      "login": {
+        "apiHostname": "API",
+        "login": "Identifiant",
+        "password": "Mot de passe",
+        "cta": "Connexion"
+      }
+    },
+    "upload": {
+      "mediaSelection": {
+        "heading": "Média",
+        "title": "Choix du média",
+        "fromLibrary": "Depuis la bibliothèque",
+        "fromCamera": "Depuis la caméra",
+        "recordAudio": "Enregistrement audio",
+        "preparing": "Préparation"
+      },
+      "audioRecording": {
+        "heading": "Enregistrement audio"
+      },
+      "processingMedia": {
+        "connectionPermission": {
+          "title": "Attention",
+          "message": "Vous n'êtes pas connecté en WiFi, voulez-vous continuer ?"
+        },
+        "status": {
+          "initializing": "Initialisation",
+          "optimizing": "Optimisation. Votre média est en cours de compression pour un envoi plus rapide. Merci pour votre patience.",
+          "uploading": "Envoi en cours ({{progress}}%)",
+          "completed": "Terminé"
+        },
+        "errors": {
+          "mimeType": "Le format de fichier n'est pas pris en charge",
+          "fileSize": "Le fichier est trop gros",
+          "fileInfos": "Impossible de récupérer les inforamtions techniques du fichier",
+          "createMedia": "Impossible de créer le média",
+          "uploadMedia": "Une erreur est survenue pendant l'envoi du fichier"
+        },
+        "resumeUpload": "Reprendre l'upload"
+      },
+      "metaDataForm": {
+        "name": "Titre du média",
+        "cta": "Enregistrer"
+      }
+    },
+    "settings": {
+      "heading": "Paramètres",
+      "settingsList": {
+        "items": {
+          "logs": {
+            "title": "Logs",
+            "description": "Afficher les logs"
+          },
+          "language": {
+            "title": "Langue",
+            "description": "Changer la langue de l'application"
+          }
+        },
+        "logout": "Déconnexion"
+      },
+      "logs": {
+        "heading": "Logs",
+        "clear": "Effacer"
+      }
+    }
+  }
+}

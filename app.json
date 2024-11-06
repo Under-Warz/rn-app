@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Streamlike",
+    "slug": "StreamlikeUploadApp",
+    "jsEngine": "hermes",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0f6f1591-8988-40a7-8930-78482f028671"
+      }
+    },
+    "plugins": [
+      "expo-community-flipper"
+    ]
+  }
+}

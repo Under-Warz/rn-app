@@ -1,0 +1,83 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "errors": {
+    "FETCH_ERROR": "No internet connection",
+    "INVALID_LOGIN_PASSWORD": "Wrong username or password"
+  },
+  "navigation": {
+    "tabBar": {
+      "upload": "Upload",
+      "settings": "Settings"
+    }
+  },
+  "features": {
+    "auth": {
+      "login": {
+        "apiHostname": "API",
+        "login": "Username",
+        "password": "Password",
+        "cta": "Signin"
+      }
+    },
+    "upload": {
+      "mediaSelection": {
+        "heading": "Media",
+        "title": "Media selection",
+        "fromLibrary": "From library",
+        "fromCamera": "From camera",
+        "recordAudio": "Audio recording",
+        "preparing": "Preparing..."
+      },
+      "audioRecording": {
+        "heading": "Audio recording"
+      },
+      "processingMedia": {
+        "connectionPermission": {
+          "title": "Warning",
+          "message": "You are not connected to WiFi, do you want to proceed?"
+        },
+        "status": {
+          "initializing": "Initializing",
+          "optimizing": "Optimizing. You media is being compressed for a faster upload and less data usage. Thank you for your patience.",
+          "uploading": "Uploading... ({{progress}}%)",
+          "completed": "Completed"
+        },
+        "errors": {
+          "mimeType": "The file format is not valid",
+          "fileSize": "The file is too large",
+          "fileInfos": "Cannot get technical data from the file",
+          "createMedia": "Cannot create media entry",
+          "uploadMedia": "An error occured while uploading file"
+        },
+        "resumeUpload": "Resume upload"
+      },
+      "metaDataForm": {
+        "name": "Media title",
+        "cta": "Save"
+      }
+    },
+    "settings": {
+      "heading": "Settings",
+      "settingsList": {
+        "items": {
+          "logs": {
+            "title": "Logs",
+            "description": "Display logs"
+          },
+          "language": {
+            "title": "Language",
+            "description": "Change the app's language"
+          }
+        },
+        "logout": "Logout"
+      },
+      "logs": {
+        "heading": "Logs",
+        "clear": "Clear"
+      }
+    }
+  }
+}
